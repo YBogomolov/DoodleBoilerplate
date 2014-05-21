@@ -1,0 +1,37 @@
+{
+  "name": "DoodleBoilerplate",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A small boilerplate for Node.js + Express + Bootstrap and more.",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YBogomolov/DoodleBoilerplate"
+  },
+  "keywords": [
+    "boilerplate",
+    "express",
+    "bootstrap",
+    "nodejs"
+  ],
+  "author": "Yuriy Bogomolov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YBogomolov/DoodleBoilerplate/issues"
+  },
+  "homepage": "https://github.com/YBogomolov/DoodleBoilerplate",
+  "scripts": {
+    "start": "nodejs server.js"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "express": "^4.3.0",
+    "express-hbs": "latest",
+    "body-parser": "latest",
+    "cookie-parser": "latest",
+    "cookie-session": "latest",
+    "csurf": "latest",
+    "errorhandler": "latest",
+    "serve-favicon": "latest"
+  }
+}
